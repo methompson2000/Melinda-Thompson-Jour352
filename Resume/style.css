@@ -1,0 +1,61 @@
+/*styles for my resume*/
+
+body{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+
+    }
+
+li{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #33485e;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+}
+
+strong{
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #33485e;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: white;
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+}
+
+img{
+  display: none;
+}
