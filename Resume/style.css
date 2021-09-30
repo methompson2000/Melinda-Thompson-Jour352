@@ -1,5 +1,11 @@
 /*styles for my resume*/
 
+#container{
+  width: 100%
+  max-width: 1200px;
+  
+
+}
 body{
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
@@ -13,11 +19,15 @@ li{
   color: #444;
 }
 
-h1 {
+#name{
   font-size: 3.5em;
   color: #33485e;
   text-align: center;
   text-transform: uppercase;
+  border-bottom: 2px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 p{
@@ -32,20 +42,26 @@ strong{
   color: #33485e;
 }
 
-h2 {
+.sectionheader{
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: white;
   font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
-h3 {
+h3{
   font-weight: 600;
   font-size: 2em;
 }
 
-h4 {
+h4{
   font-weight: 400;
   font-size: 1.5em;
 }
