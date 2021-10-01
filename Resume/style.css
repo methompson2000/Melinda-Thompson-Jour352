@@ -1,16 +1,15 @@
 /*styles for my resume*/
 
-#container{
-  width: 100%
+#container {
+  width: 100%;
   max-width: 1200px;
-  
-
+  margin: 0 auto;
 }
+
 body{
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
   color: #444;
-
     }
 
 li{
