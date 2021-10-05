@@ -55,12 +55,12 @@ strong{
   min-width: 300px;
 }
 
-h3{
+.jobtitle{
   font-weight: 600;
   font-size: 2em;
 }
 
-h4{
+.organization{
   font-weight: 400;
   font-size: 1.5em;
 }
