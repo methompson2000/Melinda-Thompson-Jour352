@@ -4,6 +4,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 body{
@@ -29,16 +30,26 @@ li{
   margin: 0 auto;
 }
 
-p{
+.description{
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
   color: #444;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
-strong{
+#title{
   text-transform: uppercase;
   font-size: 2em;
   color: #33485e;
+  font-weight: 600px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 .sectionheader{
@@ -65,12 +76,44 @@ strong{
   font-size: 1.5em;
 }
 
-h5 {
+.date{
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 img{
   display: none;
+}
+
+.menu{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline;
+}
+
+#degrees{
+  margin-top: : 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#do{
+  margin-top: : 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
