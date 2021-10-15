@@ -76,3 +76,13 @@ blockquote {
   font-family: Helvetica, sans-serif;
   font-style: italic;
 }
+
+h4 {
+  font-size: 15px;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  font-size: 11px;
+  font-family: Helvetica, sans-serif;
+}
