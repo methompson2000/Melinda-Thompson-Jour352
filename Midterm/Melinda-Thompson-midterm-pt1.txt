@@ -1,0 +1,22 @@
+1. <a href="http://www.google.com">Google</a> is the best search engine in the world.
+2. The purpose of a div tag is to be able to separate content in html and as a container for CSS
+3. <!DOCTYPE html>
+   <html lang="en">
+      <head>
+        <title></title>
+      </head>
+        <body>
+        </body>
+   </html>
+4. You would put the link to the stylesheet in the head tag.
+5. You would put images and div tags in the body tag.
+6. <div class="graphicbox"></div>
+   <div id="name"></div>
+7. <div id="apples" class="fruit"></div>
+8. .class {
+      color: #000000;
+    }
+9. img src="url"
+10. Media queries are used in CSS to modify your website to fit on different screen sizes and to change characteristics so that it looks better on these different screens.
+11. Serif fonts have a decorative line or detailing at the end of the letter and sans-serif do not have those features. San-serif is good for reading main texts. 
+12. #FFCC33
