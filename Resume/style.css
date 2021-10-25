@@ -5,6 +5,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
+  background-color: #EDCFEE;
 }
 
 body{
@@ -21,13 +22,14 @@ li{
 
 #name{
   font-size: 3.5em;
-  color: #33485e;
   text-align: center;
   text-transform: uppercase;
-  border-bottom: 2px solid #33485e;
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  text-shadow: 4px 3px #EDCFEE;
 }
 
 /*paragraph info*/
@@ -45,13 +47,15 @@ li{
 #title{
   text-transform: uppercase;
   font-size: 2em;
-  color: #33485e;
   font-weight: 600px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  text-shadow: 3px 2px #EDCFEE;
 }
 
 /*headings for the job parts*/
@@ -90,7 +94,7 @@ li{
 }
 
 img{
-  display: none;
+
 }
 
 /*for the contact information*/
@@ -122,4 +126,20 @@ img{
   min-width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+/*for the masterhead*/
+.bgimage {
+  width:100%;
+  height:500px;
+  background:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('https://lh3.googleusercontent.com/KgCvbfEL0AoPsCPwohIP9Ab486XXFheQoyGMfzXSQ_XT9N7g0GtIvDHDIAJ6raUTGKDb2c0MbZqMrtkN1vQl6BJ2u6h9QS3fpDjDvTAhYG4eZ1sscUhiundNgoAIdvf1UMAJ8hcsFRo2mR3Ka3BlmvsAYsmhmryAsnU9-Up3sLsX37UbFp-c1C9hn6llXYrZU215VsqvtHfFtjMbybhvKygmG6V4INhfuwIBvdW3-9aUWfEsoomCuc6HyvhKk25Qrk7vrsJQIznKUX9DyQDGPhpScDVxJhUnKsJvJSRwhlmXV_s4RuQzho3seVTbsrtQ8ulXJcRs3EDLN_ibx6ZheoMR6dqMN_c24Cio1WxTQzG2xbvsaEdxB0RlkhKhCax8TSmBZMRhoWUJ1GAEgzG6f1QpnVjwcgLRu-vsH6BXYyrkRNbOTftZBZ3hlFbrImWh8t0CbS8hw9wtaqY9chz9SiPeKm_I0PcpMG7vLuGRyRwCcMjcxWwsl-K8F-Q8qW9jk5E7EcEfB7QRA_nhdUMqjcHqcyyRqVcoix29i6LeclZsioKyL1aveou5ti8s1uOBlYwJF0NP93nJ9qNVfEMv2XjASUlx892u7fN74kyDex56Ca4N7t3KgKuWLh6U7RDWsB5xNa_1LTRzRGz8L3B3yDueRy-ARHN0_U2uvM107IatmazQYquZ4__x12MtOfKGKr99ecREjfdLpyf1ATLnFdM=w1174-h880-no?authuser=0');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bgimage title{
+  color:white;
+  filter: brightness(75%)
 }
