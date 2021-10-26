@@ -14,12 +14,6 @@ body{
   color: #444;
     }
 
-li{
-  font-family:1 'Open Sans', Arial, sans-serif;
-  font-size: 1em;
-  color: #444;
-}
-
 #name{
   font-size: 3.5em;
   text-align: center;
@@ -126,6 +120,26 @@ img{
   min-width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
+  color: #5F6B25;
+  font-family: Arial;
+}
+
+.contact-info{
+  color: #5F6B25;
+  margin: 0px 0px 0px 70px;
+  font-family: Arial;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited {
+  color: #5F6B25;
 }
 
 /*for the masterhead*/
