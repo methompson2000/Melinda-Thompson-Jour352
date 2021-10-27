@@ -29,16 +29,6 @@ body{
   padding: 0;
 }
 
-/*paragraph info*/
-.description{
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 1em;
-  color: #444;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
 
 /*beginning journalism*/
 #title{
@@ -66,26 +56,8 @@ body{
   width: 70%;
   min-width: 300px;
   text-align: center;
-}
-
-.jobtitle{
-  font-weight: 600px;
-  font-size: 2em;
-}
-
-.organization{
-  font-weight: 400;
-  font-size: 1.5em;
-}
-
-.date{
-  font-weight: 400;
-  font-style: italic;
-  font-size: 1em;
-  margin-top: 3px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  text-decoration: underline;
+  padding: 0px 0px 2px 0px;
 }
 
 /*for the contact information*/
@@ -96,11 +68,18 @@ body{
   display: inline;
 }
 
-#degrees{
+.degrees{
   margin-top: : 5px;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
+  padding: 10px;
+  border: 5px;
+  background-color: #5F6B25;
+  color: #EDCFEE;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  font-family: Arial;
 }
 
 .do{
@@ -114,7 +93,7 @@ body{
   color: #EDCFEE;
   border-radius: 15px 15px 15px 15px;
   text-align: center;
-
+  font-family: Arial;
 }
 
 
@@ -220,6 +199,15 @@ a:visited {
   }
 }
 
+/*for the date part of the experiences*/
+p.date{
+  font-weight: 400;
+  font-style: italic;
+  font-size: .5em;
+  margin: 2px 0px 0px 0px;
+  padding: 2px 0px 0px 0px;
+}
+
 
 .col-md-6 {
   margin: 0 auto;
@@ -227,6 +215,23 @@ a:visited {
 
 .circle-date {
   padding: 5em 0em 0em 0em;
+  text-align: center;
+}
+
+.job-info{
+  font-size: 1.2em;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  margin: 40px 0px 40px 0px;
+}
+
+/*paragraph info*/
+p.job-description{
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  margin: 0 auto;
   text-align: center;
 }
 
