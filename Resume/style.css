@@ -185,6 +185,7 @@ a:visited {
 .circle__content {
   display: table-cell;
   padding: 3em 0em 1em 0em;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 @media (min-width: 480px) {
@@ -206,6 +207,7 @@ p.date{
   font-size: .5em;
   margin: 2px 0px 0px 0px;
   padding: 2px 0px 0px 0px;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 
 
@@ -224,13 +226,14 @@ p.date{
   font-style: italic;
   text-align: center;
   margin: 40px 0px 40px 0px;
+  color: #5F6b25;
 }
 
 /*paragraph info*/
-p.job-description{
+p.work{
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em;
-  color: #444;
+  color: #5F6b25;
   margin: 0 auto;
   text-align: center;
 }
