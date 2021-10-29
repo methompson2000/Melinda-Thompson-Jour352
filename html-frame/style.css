@@ -1,0 +1,44 @@
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.chapter {
+  font-size: 2em;
+  font-family:'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  font-family: Georgia, serif;
+  line-height: 180%;
+}
+
+.image {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.source {
+  font-style: italic;
+}
+
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.row {
+  text-align: center;
+}
