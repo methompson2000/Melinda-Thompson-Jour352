@@ -2,6 +2,7 @@
   text-align:center;
 }
 
+/*navbar and logo*/
 .red {
   font-family: 'Montserrat', sans-serif;
   color: red;
@@ -20,8 +21,44 @@
   margin: 0 auto;
 }
 
-.img {
+/*splash*/
+.hero-image {
   width: 100%;
+}
+
+.hero-head {
+  font-family; font-family: 'Cormorant Garamond', serif;
+  margin: 0 auto;
+  font-size: 6em;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero-sub {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  font-size: .25em;
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  width:100%;
+  top: 20%;
+  background:#000;
+  opacity:.7;
+}
+
+.heat {
+  color: red;
+  font-weight: 800;
 }
 
 .headline {
