@@ -73,6 +73,7 @@
   text-transform: uppercase;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
 }
 
 .chapter {
@@ -110,7 +111,7 @@ footer {
 
 /* Media Queries */
 
-@media(max-width:550px) {
+@media(max-width:750px) {
   p {
     padding-left:20px;
     padding-right:10px;
@@ -120,12 +121,14 @@ footer {
     font-size:1.25em;
   }
 
-  .hed {
+  .head {
     font-size:2em;
   }
 
-  .hero-hed {
+  .hero-head {
   font-size:1.5em;
 }
+
+
 
 }
