@@ -1,3 +1,29 @@
+.container {
+  text-align:center;
+}
+
+.red {
+  font-family: 'Montserrat', sans-serif;
+  color: red;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.img {
+  width: 100%;
+}
+
 .headline {
   font-size: 3em;
   font-weight: 700;
@@ -41,4 +67,28 @@ footer {
 
 .row {
   text-align: center;
+}
+
+
+
+/* Media Queries */
+
+@media(max-width:550px) {
+  p {
+    padding-left:20px;
+    padding-right:10px;
+  }
+
+  .chapter-head {
+    font-size:1.25em;
+  }
+
+  .hed {
+    font-size:2em;
+  }
+
+  .hero-hed {
+  font-size:1.5em;
+}
+
 }
