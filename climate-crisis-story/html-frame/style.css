@@ -1,5 +1,6 @@
 .container {
   text-align:center;
+  width: 90%;
 }
 
 /*navbar and logo*/
@@ -76,26 +77,43 @@
   padding-top: 20px;
 }
 
-.chapter {
-  font-size: 2em;
+/*body*/
+p.chapter {
+  font-size: 1.5em;
   font-family:'Montserrat', sans-serif;
+  text-align: center;
+  color: red;
 }
 
 p {
   font-size: 1em;
   font-family: Georgia, serif;
   line-height: 180%;
+  text-align: left;
 }
 
-.image {
-  width: 700px;
+img {
+  width: 70%;
   margin: 0 auto;
 }
 
-.source {
+
+/*Caption for photos*/
+.caption {
+  text-align: center;
+  font-size: .75em;
+  font-family: Georgia, serif;
   font-style: italic;
 }
 
+
+/*for end credits*/
+.credits {
+  text-align: left;
+  font-size: 1em;
+  font-family: Georgia, serif;
+  font-style: italic;
+}
 
 footer {
   text-align: center;
@@ -103,32 +121,57 @@ footer {
   color: white;
 }
 
-.row {
-  text-align: center;
-}
-
 
 
 /* Media Queries */
 
-@media(max-width:750px) {
+@media(max-width:800px) {
+.hero-head {
+  font-size:3em;
+}
+
+}
+
+
+@media(max-width:550px) {
+  .hero-head {
+    font-size:1.5em;
+  }
+
   p {
     padding-left:20px;
     padding-right:10px;
+      font-size: .5em;
   }
 
   .chapter-head {
     font-size:1.25em;
   }
 
-  .head {
+  .intro-text {
+    font-size:1.25em;
+  }
+
+  .hed {
     font-size:2em;
   }
 
-  .hero-head {
-  font-size:1.5em;
+  .hero-text{
+    font-size:2em;
+    top:50%;
+  }
+
+  .quote {
+    display:none;
+    font-size:1em;
+  }
+
+.text-box {
+  width:100%;
 }
 
-
+img {
+  width: 70%;
+}
 
 }
