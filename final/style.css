@@ -1,5 +1,7 @@
 .container {
   text-align:center;
+  margin: 0 auto;
+  width: 900px;
 }
 
 .headline {
@@ -24,7 +26,7 @@
 /* page topper */
 .bgimage {
   width:100%;
-  height:500px;
+  height:900px;
   background: url('images/simone_header.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -33,18 +35,19 @@
 }
 .bgimage h1 {
   margin-top: 60px;
-  color: black;
-  text-shadow:2px 2px white;
+  color: white;
+  font-size: 5em;
   text-align: center;
 
+/*content*/
 p {
   font-size: 1em;
   font-family: Georgia, serif;
   line-height: 180%;
 }
 
-.image {
-  width: 700px;
+img {
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -68,6 +71,10 @@ footer {
 
 @media(max-width:800px) {
 .hero-hed {
+  font-size:3em;
+}
+
+.bgimage h1{
   font-size:3em;
 }
 
@@ -104,6 +111,10 @@ footer {
   .quote {
     display:none;
     font-size:1em;
+  }
+
+  .bgimage h1{
+    font-size: 3em;
   }
 
 .text-box {
