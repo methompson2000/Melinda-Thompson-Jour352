@@ -1,7 +1,6 @@
 .container {
   text-align:center;
-  margin: 0 auto;
-  width: 900px;
+  width: 100%;
 }
 
 .headline {
@@ -41,18 +40,14 @@ p {
   line-height: 180%;
 }
 
-img {
-  max-width: 100%
-  margin: 0 auto;
-}
-
-.image {
-  height: 400px
-  padding-right: 20px;
-}
 
 .source {
   font-style: italic;
+}
+
+img {
+  margin: 0 auto;
+  width: 600px;
 }
 
 /*pullquote*/
