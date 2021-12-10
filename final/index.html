@@ -10,12 +10,8 @@
   <meta name="description" content="Merrill College of Journalism, UMD">
   <meta name="author" content="Melinda Thompson">
 
-  <!-- Bootstrap CSS and JavaScript -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -42,42 +38,12 @@
 
 
   <!--nav bar bootstrap-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+
+  <!--logo-->
+    <span class="nav-logo"><span class="red">Simone Biles:</span>Mental Health</span>
   </nav>
+<!-- // End nav bar -->
 
 
   <div class="container">
@@ -113,10 +79,13 @@
 
     <p>Nassar, the USA Gymnastics team’s former doctor, was accused of sexually assaulting more than 120 girls. He pleaded guilty to sexually abusing 10 minors in Michigan court in 2018 and is serving up to 175 years in prison.</p>
 
-    <p>Biles, who said she is a survivor of Nassar’s abuse, has spoken out in the past about how it affected her, and said that her Olympics performance was “probably” affected by it.</p>
+    <figure class="fig1">
+      <img  class="testify" src="images/simone_testify.jpg" alt="Simone Biles testifying at Larry Nassar's trial">
+      <figcaption class="caption"><a href="https://www.latimes.com/sports/story/2021-09-15/simone-biles-other-gymnasts-criticize-fbis-handling-of-larry-nassar-case-at-hearing"> Saul Loeb</a> | Associated Press
+      </figcaption>
+    </figure>
 
-    <img src="images/simone_testify.jpg" alt="Simone Biles testifying at Larry Nassar's trial">
-    <p class="caption"><a href="https://www.latimes.com/sports/story/2021-09-15/simone-biles-other-gymnasts-criticize-fbis-handling-of-larry-nassar-case-at-hearing"> Saul Loeb</a> | Associated Press</p>
+    <p>Biles, who said she is a survivor of Nassar’s abuse, has spoken out in the past about how it affected her, and said that her Olympics performance was “probably” affected by it.</p>
 
     <p>She now has the opportunity to continue speaking out against sexual assault and promoting any other social banners she chooses to carry.</p>
 
@@ -211,10 +180,9 @@
 
   </footer>
 
-<!--jQuery Popper and Bootstrap-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>

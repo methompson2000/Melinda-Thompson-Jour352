@@ -1,6 +1,6 @@
 .container {
-  text-align:center;
-  width: 100%;
+  text-align:left;
+  margin: 0 auto;
 }
 
 .headline {
@@ -27,11 +27,13 @@
   background-size:cover;
   background-attachment: fixed;
 }
+
 .bgimage h1 {
   margin-top: 60px;
   color: white;
   font-size: 5em;
   text-align: center;
+}
 
 /*content*/
 p {
@@ -46,8 +48,29 @@ p {
 }
 
 img {
+  width: 70%;
   margin: 0 auto;
-  width: 600px;
+}
+
+/*left-side thing*/
+.fig1 {
+  display: flex;
+  flex-flow: column;
+  max-width: 300px;
+  float: right;
+}
+
+.caption {
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 400px;
+  float: right;
+  color: grey;
+}
+
+img.testify {
+  width: 100%;
 }
 
 /*pullquote*/
