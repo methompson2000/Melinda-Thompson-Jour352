@@ -3,24 +3,20 @@
   margin: 0 auto;
 }
 
-.headline {
-  font-size: 3em;
-  font-weight: 700;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
 .byline {
-  font-size: 1em;
+  font-size: 1.25em;
+  font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*navbar and logo*/
 .red {
-  font-family: 'Montserrat', sans-serif;
-  color: red;
+  font-family: 'Libre Baskerville', serif;
+  color: #F74241;
   font-size: 1em;
   font-weight: 300;
   text-align: center;
@@ -28,7 +24,7 @@
 }
 
 .nav-logo {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   color: white;
   font-size: 1em;
   font-weight: 300;
@@ -68,17 +64,17 @@
 }
 
 .hero-head {
-  font-family; font-family: 'Cormorant Garamond', serif;
+  font-family: 'Libre Baskerville', serif;
   margin: 0 auto;
-  font-size: 6em;
+  font-size: 5em;
   font-weight: 700;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
 }
 
 .hero-sub {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 12px;
   left: 10px;
   bottom: 10px;
@@ -104,13 +100,13 @@
   font-size: 3em;
   font-weight: 700;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 /*content*/
 p {
   font-size: 1em;
-  font-family: Georgia, serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 180%;
 }
 
@@ -120,15 +116,23 @@ p {
 }
 
 img {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 
+iframe {
+  margin: 0 auto;
+}
+
+.credit {
+  font-family: 'Raleway', sans-serif;
+  font-size: .75em;
+}
 /*left-side thing*/
 .fig1 {
   display: flex;
   flex-flow: column;
-  max-width: 300px;
+  max-width: 400px;
   float: right;
 }
 
@@ -136,9 +140,11 @@ img {
   display: flex;
   flex-flow: column;
   padding: 5px;
-  max-width: 400px;
+  max-width: 450px;
   float: right;
   color: grey;
+  font-family: 'Raleway', sans-serif;
+  font-size: .75em;
 }
 
 img.testify {
@@ -150,15 +156,20 @@ img.testify {
   font-size: 3em;
   font-weight: 500;
   text-align: center;
-  border-top: solid red;
-  border-bottom: solid red;
+  border-top: 5px solid #333ca2;
+  border-bottom: 5px solid #333ca2;
+  font-family: 'Libre Baskerville', serif;
+  background-color: #f74241;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .quote-attribution{
   font-style: italic;
   text-align: center;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: .5em;
+  font-family: 'Raleway', sans-serif;
 }
 
 footer {
@@ -175,7 +186,7 @@ footer {
 
 
 @media(max-width:800px) {
-.hero-hed {
+.hero-head {
   font-size:3em;
 }
 
@@ -187,8 +198,12 @@ footer {
 
 
 @media(max-width:550px) {
-  .hero-hed {
-    font-size:1.5em;
+  .hero-head {
+    font-size:1em;
+  }
+
+  .headline {
+    font-size: 1em;
   }
 
   .header_caption {
@@ -199,6 +214,11 @@ footer {
   p {
     padding-left:20px;
     padding-right:10px;
+  }
+
+  iframe {
+    height: 240;
+    width: 320;
   }
 
   .chapter-head {
